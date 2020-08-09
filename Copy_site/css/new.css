@@ -1,0 +1,126 @@
+.index_content{width:100%;}
+.index_action{width:308px;height:192px;float:left;margin-left:14px;margin-bottom:8px;overflow:hidden;position:relative;}
+.index_action:hover{width:308px;overflow:visible;background:white;z-index:1;}
+.index_action:hover .index_action_inside{height:209px;background:inherit;border:2px solid #FFAE20;margin:-7px;padding:5px;border-radius:5px;width:308px;box-shadow:5px 5px 13px 0px rgba(54, 69, 102, 0.5);}
+.index_action_first{margin-left:0}
+.ind_n1{margin-left:0}
+.ind_n1, .ind_n2, .ind_n3, .ind_n4{height:155px;}
+.index_action_text{width:308px;height:37px;float:left;}
+.index_action_text .index_action_title{font:bold 12px 'Segoe UI';padding:0;margin:0;color:#0080ff;height:33px;text-align:center;overflow:hidden;}
+.index_action_text .index_action_title a{text-decoration:none;color:#0080ff;}
+.index_action_text .index_action_title a:hover{text-decoration:underline;}
+.index_action_text .index_action_left{font:bolder 12px 'Segoe UI';height:15px;padding:0;margin-bottom:15px;text-align:center;}
+.index_action_text .index_action_left .days_left{color:#0080ff;}
+.index_action_text .index_action_left .today_left{color:#ff7f00;}
+.showmoreaction{width:310px;height:25px;margin:13px auto 0 auto;cursor:pointer;}
+.index_recomendation{width:1274px;border-radius:6px;height:389px;border:1px solid #ff7f00;margin-top:20px;}
+.index_recomendation .item_of_day{height:100%;width:390px;float:left;position:relative;}
+.index_recomendation .item_of_day .item_of_day_title{padding-top:10px;height:30px;font:bold 24px 'Segoe UI';text-align:center;}
+.index_recomendation .item_of_day .item_of_day_image{width:340px;height:180px;padding:0 6px;text-align:center;margin-top:5px;line-height:180px;position:relative;}
+.index_recomendation .item_of_day .item_of_day_image img{max-width:340px;max-height:180px;vertical-align:middle;}
+.index_recomendation .item_of_day .item_of_day_name{padding:5px 25px 0 25px;margin:0;font:normal 14px 'Segoe UI';text-align:center;height:20px;overflow:hidden;}
+.index_recomendation .item_of_day .item_of_day_name a{text-decoration:none;color:#3399ff;}
+.index_recomendation .item_of_day .item_of_day_price{width:100%;height:33x;}
+.index_recomendation .item_of_day .item_of_day_price .item_of_day_old{font:bold 18px 'Segoe UI';text-decoration:line-through;color:#808080;width:180px;float:left;text-align:right;padding-top:5px;}
+.index_recomendation .item_of_day .item_of_day_price .item_of_day_new{font:bold 24px 'Segoe UI';position:relative;left:22px;color:#ff7f00;}
+.item_of_day .all_item_button{clear:both;width:100%;position:absolute;bottom:0;height:70px;background-color:#ff7733;}
+.index_recomendation .items_of_week{height:100%;width:664px;float:left;position:relative}
+.index_recomendation .items_of_week .items_of_week_title{padding-top:10px;height:30px;font:bold 24px 'Segoe UI';text-align:center;}
+.index_recomendation .items_of_week .items_of_week_list{width:100%;height:269px;}
+.index_recomendation .items_of_week .items_of_week_list ul{list-style:none;margin:0;padding:0;}
+.index_recomendation .items_of_week .items_of_week_list ul li{margin:0;padding:0;float:left;width:221px;height:269px;}
+.items_of_week_list_img{text-align:center;width:96%;height:170px;padding:18px 5px 0;line-height:170px;position:relative;}
+.items_of_week_list_img img{max-width:211px;max-height:160px;vertical-align:middle;}
+.items_of_week_name{font:14px 'Segoe UI';padding:0 3px;text-align:center;height:40px;overflow:hidden;}
+.items_of_week_name a{text-decoration:none;color:#3399ff;}
+.items_of_week_price{width:100%;padding-top:12px;height:42px;}
+.items_of_week_price .items_of_week_old{font:bold 14px 'Segoe UI';text-decoration:line-through;color:#808080;width:98px;float:left;text-align:right;padding-top:4px;}
+.items_of_week_price .items_of_week_new{font:bold 18px 'Segoe UI';position:relative;left:11px;color:#ff7f00;}
+.items_of_week .all_item_button{clear:both;width:100%;position:absolute;bottom:0;height:70px;background-color:#f7ad19;}
+.index_recomendation .index_consultation{width:190px;float:left;position:relative;left:12px;top:10px;}
+.index_consultation_top{height:37px;width:100%;}
+.index_consultation_top img{float:left;}
+.index_consultation_top span{text-transform:uppercase;position:relative;left:10px;font:bold 14px 'Segoe UI';}
+.index_recomendation .call_stac{height:60px;clear:both;padding-top:30px;text-align:left;font:normal 14px 'Segoe UI';}
+.index_recomendation .call_stac .free_stac{font:bold 14px 'Segoe UI';color:#333333;}
+.index_recomendation .call_stac .pod_stac{font:bold 12px 'Segoe UI';color:#a7a7a7;}
+.index_recomendation .call_stac .phone_stac{font:bold 14px 'Segoe UI';color:#ff7f00;}
+.index_recomendation .consult_callback{height:45px;padding-top:31px;line-height:2;}
+.index_recomendation .multichanel_consultation{padding-top:40px;height:76px;line-height:0.5;}
+.index_recomendation .multichanel_consultation .multi_tit{font:bold 14px 'Segoe UI';color:#333333;}
+.index_recomendation .multichanel_consultation .multi_phone{font:normal 14px 'Segoe UI';}
+.index_recomendation .consult_callback span{border-bottom:1px dashed #0080ff;font:bold 14px 'Segoe UI';color:#0080ff;cursor:pointer;}
+.index_recomendation .consult_callback span:first-child{font:bold 14px arial;}
+.index_recomendation .consult_callback span:last-child{font:bold 14px 'Segoe UI';}
+.hot_items_title{margin:30px auto 0;width:266px;font:bold 18px arial}
+.hot_items_list{margin:0 auto;height:200px;text-align:center}
+.gor_tov{margin:10px 0 0 0;padding:0;list-style:none;width:100%;height:200px;}
+.gor_tov li{float:left;height:200px;width:172px;margin:0 5px;}
+.gor_tov li div{height:150px;}
+.gor_tov li p{height:20px;text-align:center;padding:0;margin:3px 0 0 0;font:bold 14px 'Segoe UI';}
+.gor_tov li p .price_tovh{color:#ff7f00;font:bold 18px 'Segoe UI';}
+.cat_list table{border-collapse:separate;border-spacing:0;margin-top:30px;}
+.cat_list table td{width:256px;padding-bottom:10px;}
+.cat_list table td ul{list-style:none;padding:0;margin:0;}
+.cat_list table td ul a{font:normal 14px 'Segoe UI';color:#0080ff;}
+.cat_list table tr.title td{font:bold 18px 'Segoe UI';}
+.index_recomendation .vertical_divider{float:left;width:1px;height:370px;background:url(../img/main_page/vert_div.png) transparent repeat-y;position:relative;top:14px;}
+.index_news{width:100%;}
+.index_news .index_news_title{padding:0;margin:30px 0 0 0;font:bold 20px 'Segoe UI';text-align:center;}
+.index_news table{border-collapse:separate;border-spacing:2px;margin-top:24px;height:140px;overflow:hidden;display:block;}
+.index_news table td{padding:0 15px;width:290px;margin:0;}
+.index_news table td .news_anons_title{font:bold 12px 'Segoe UI';margin-bottom:10px;color:#333333;height:34px;overflow:hidden;}
+.index_news table td .news_anons_title a{color:#0080FF;}
+.index_news table td .news_anons{width:290px;text-align:left;font:normal 12px 'Segoe UI';color:#4c4c4c;height:68px;overflow:hidden;}
+.index_news table td .news_see_more{padding-top:10px;vertical-align:top;}
+.index_news table td .news_see_more .news_see_more_date{font:bold 12px 'Segoe UI';color:#808080;float:left;}
+.index_news table td .news_see_more .news_see_more_link{font:normal 12px 'Trebuchet MS';float:right;}
+.index_news .need_know_more{margin-top:30px;float:right;width:300px;position:relative;right:1px;}
+.index_news .need_know_more img:first-child{float:left;cursor:pointer;}
+.index_news .need_know_more img:last-child{float:right;}
+.index_news table td .news_see_more .news_see_more_link a{color:#0080ff;}
+.youtube_chanel{width:1276px;margin:30px auto 0 auto;background:#333333;clear:both;border-collapse:separate;border-spacing:2px;height:100%;}
+.youtube_chanel td{padding:0;margin:0;vertical-align:top;}
+.youtube_chanel .new_video_chanel{width:898px;}
+.youtube_chanel .new_video_chanel .youtube_title{margin:0;padding:5px 0 0 16px;color:white;font:bold 20px 'Segoe UI';}
+.youtube_chanel .new_video_chanel table{margin-top:10px;}
+.youtube_chanel .new_video_chanel table td{width:449px;height:30px;}
+.youtube_chanel .new_video_chanel table td img{padding-left:7px;}
+.youtube_chanel .new_video_chanel table td a{color:white;}
+.youtube_chanel .new_video_chanel table td span{font:normal 12px 'Segoe UI';color:white;padding-left:17px;position:relative;bottom:7px;}
+.youtube_chanel .youtube_divider{width:4px;background:url(../img/main_page/yvertdiv.png) transparent 0 5px no-repeat;height:100%;}
+.youtube_chanel .subscribe_us{padding-left:35px;}
+.youtube_chanel .subscribe_us .subscribe_us_title{font:bold 18px arial;color:white;padding-top:10px;}
+.youtube_chanel .subscribe_us a img{padding-top:5px;}
+#foot-items .last_view{padding-top:30px;height:85px;}
+#foot-items .last_view .last_view_title{font:bold 18px arial;text-align:center;padding-bottom:12px;}
+#foot-items .last_view .slider_l{position:relative;}
+#foot-items .last_view .slider_l ul{width:1250px;margin:0 auto;list-style:none;padding:0;}
+#foot-items .last_view .slider_l ul li{float:left;width:312px;}
+#foot-items .last_view .slider_l ul li .it_img{width:55px;height:55px;float:left;}
+#foot-items .last_view .slider_l ul li .it_img img{max-width:55px;max-height:55px;}
+#foot-items .last_view .slider_l ul li .it_name{position:relative;left:10px;width:235px;height:35px;overflow:hidden;}
+#foot-items .last_view .slider_l ul li .it_name a{color:#0080ff;font:normal 12px arial;}
+#foot-items .last_view .slider_l ul li .it_cost{width:100%;height:20px;position:relative;}
+#foot-items .last_view .slider_l ul li .it_cost .it_cost_old{font:normal 14px 'Segoe UI';text-decoration:line-through;color:#808080;float:left;position:absolute;left:143px;}
+#foot-items .last_view .slider_l ul li .it_cost .it_cost_new{font:bold 14px 'Segoe UI';position:relative;left:22px;width:77px;text-align:left;position:relative;left:10px;float:left;color:#ff7700;}
+#foot-items .last_view #last_view_prev{background:url(../img/main_page/prev.png) transparent no-repeat;width:5px;height:8px;position:absolute;top:20px;left:5px;cursor:pointer;}
+#foot-items .last_view #last_view_next{background:url(../img/main_page/next.png) transparent no-repeat;width:5px;height:8px;position:absolute;top:20px;right:5px;cursor:pointer;}
+.dotline{height:1px;width:1280px;margin:0 auto;background:url(../img/dot.png) transparent repeat-x;position:relative;top:15px;}
+.item_of_day .all_item_button table{border-collapse:separate;border-spacing:0;}
+.item_of_day .all_item_button table td{padding:0;margin:0;height:70px;vertical-align:top;}
+.item_of_day .all_item_button .all_item_button_title{width:115px;}
+.item_of_day .all_item_button .all_item_button_title p{font:bold 14px 'Segoe UI';color:white;position:relative;top:17px;text-align:center;width:115px;}
+.item_of_day .all_item_button .all_item_button_counter{width:140px;height:53px;background:url(../img/bgmainday.png) transparent no-repeat 0px 5px;}
+.item_of_day .all_item_button .all_item_button_button img{position:relative;left:14px;top:20px;}
+.items_of_week .all_item_button table{border-collapse:separate;border-spacing:0;}
+.items_of_week .all_item_button table td{padding:0;margin:0;height:70px;vertical-align:top;position:relative;}
+.items_of_week .all_item_button .all_item_button_title{width:115px;}
+.items_of_week .all_item_button .all_item_button_title p{font:bold 14px 'Segoe UI';color:white;position:relative;top:17px;text-align:center;width:115px;}
+.items_of_week .all_item_button .all_item_button_counter{width:247px;height:53px;background:url(../img/bgmainweek.png) transparent no-repeat 0px 5px;}
+.items_of_week .all_item_button .all_item_button_button{width:300px;}
+.items_of_week .all_item_button .all_item_button_button img{position:absolute;right:24px;top:20px;}
+#day_counter{position:relative;top:29px;left:6px;}
+#day_counter .cntSeparator{visibility:hidden;width:20px;}
+#week_counter{position:relative;top:29px;left:6px;}
+#week_counter .cntSeparator{visibility:hidden;width:20px;}
